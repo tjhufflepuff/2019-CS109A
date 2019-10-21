@@ -1085,11 +1085,11 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1><img src="https://raw.githubusercontent.com/Harvard-IACS/2018-CS109A/master/content/styles/iacs.png" style="float: left; padding-right: 10px; width: 45px" /> CS109A Introduction to Data Science</h1>
-<h2 id="Standard-Section-5:-Logistic-Regression,-Multiple-Logistic-Regression,-and-KNN-classification">Standard Section 5: Logistic Regression, Multiple Logistic Regression, and KNN-classification<a class="anchor-link" href="#Standard-Section-5:-Logistic-Regression,-Multiple-Logistic-Regression,-and-KNN-classification">¶</a></h2><p><strong>Harvard University</strong><br />
-<strong>Fall 2019</strong><br />
-<strong>Instructors</strong>: Pavlos Protopapas, Kevin Rader, and Chris Tanner<br />
-<strong>Section Leaders</strong>: Marios Mattheakis, Abhimanyu (Abhi) Vasishth, Robbert (Rob) Struyven<br /></p>
+<h1><img src="https://raw.githubusercontent.com/Harvard-IACS/2018-CS109A/master/content/styles/iacs.png" style="float: left; padding-right: 10px; width: 45px"> CS109A Introduction to Data Science</h1>
+<h2 id="Standard-Section-5:-Logistic-Regression,-Multiple-Logistic-Regression,-and-KNN-classification">Standard Section 5: Logistic Regression, Multiple Logistic Regression, and KNN-classification<a class="anchor-link" href="#Standard-Section-5:-Logistic-Regression,-Multiple-Logistic-Regression,-and-KNN-classification">¶</a></h2><p><strong>Harvard University</strong><br>
+<strong>Fall 2019</strong><br>
+<strong>Instructors</strong>: Pavlos Protopapas, Kevin Rader, and Chris Tanner<br>
+<strong>Section Leaders</strong>: Marios Mattheakis, Abhimanyu (Abhi) Vasishth, Robbert (Rob) Struyven<br></p>
 </div>
 </div>
 </div>
@@ -1109,7 +1109,7 @@ h6:hover .anchor-link {
 <li>Optional: Fit a KNN-classification model for classification, plot decision boundaries, and interpret results.</li>
 <li>Optional Homework Tip: Pipeline building to sequentially apply a list of transforms (e.g. scaling, polynomial feature creation) and a final estimator.</li>
 </ol>
-<hr />
+<hr>
 </div>
 </div>
 </div>
@@ -1387,7 +1387,7 @@ h6:hover .anchor-link {
 <span class="n">y_pred_train</span> <span class="o">=</span> <span class="n">model_linear_sklearn</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train_cst</span><span class="p">)</span>
 <span class="n">y_pred_test</span> <span class="o">=</span> <span class="n">model_linear_sklearn</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_cst</span><span class="p">)</span>
 
-<span class="c1">#Perfromance Evaluation</span>
+<span class="c1">#Performance Evaluation</span>
 <span class="n">train_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 <span class="n">test_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_test</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 
@@ -1480,7 +1480,7 @@ h6:hover .anchor-link {
 <span class="n">y_pred_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">model_linear_sklearn</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train_cst</span><span class="p">))</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
 <span class="n">y_pred_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">model_linear_sklearn</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_cst</span><span class="p">))</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
 
-<span class="c1">#Perfromance Evaluation</span>
+<span class="c1">#Performance Evaluation</span>
 <span class="n">train_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 <span class="n">test_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_test</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 
@@ -1554,7 +1554,7 @@ Why do we have 4 different predicted classes?</p>
 <li>Continuous data in which the noise is not normally distributed</li>
 </ol>
 <p><strong>Generalized Linear Models (GLMs), of which Logistic regression is a specific type, to the resque: Logistic regression is most useful for binary response and categorical data.</strong></p>
-<p><img alt="Linear versus Logistic" src="http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1534281070/linear_vs_logistic_regression_edxw03.png" /></p>
+<p><img alt="Linear versus Logistic" src="http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1534281070/linear_vs_logistic_regression_edxw03.png"></p>
 </div>
 </div>
 </div>
@@ -1566,8 +1566,8 @@ Why do we have 4 different predicted classes?</p>
 <p>$$\hat{p}= \dfrac{e^{w^T x}}{1+e^{w^T x}}$$</p>
 <p>This is equivalent to:</p>
 <p>$$\hat{p}= \dfrac{1}{1+e^{-w^T x}}$$</p>
-<hr />
-<p><img alt="Sigmoid Function" src="https://miro.medium.com/max/3000/1*RqXFpiNGwdiKBWyLJc_E7g.png" /></p>
+<hr>
+<p><img alt="Sigmoid Function" src="https://miro.medium.com/max/3000/1*RqXFpiNGwdiKBWyLJc_E7g.png"></p>
 <p><a href="https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc">Medium Article: Detailed overview of Logistic Regression</a></p>
 </div>
 </div>
@@ -1584,7 +1584,7 @@ Why do we have 4 different predicted classes?</p>
 <span class="n">y_pred_train</span> <span class="o">=</span> <span class="n">model_logistic</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train_cst</span><span class="p">)</span>
 <span class="n">y_pred_test</span> <span class="o">=</span> <span class="n">model_logistic</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_cst</span><span class="p">)</span>
 
-<span class="c1">#Perfromance Evaluation</span>
+<span class="c1">#Performance Evaluation</span>
 <span class="n">train_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 <span class="n">test_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_test</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 
@@ -1649,6 +1649,7 @@ Why do we have 4 different predicted classes?</p>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Linear Regression: raw output and rounded output.'</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">((</span><span class="o">-</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">3.1</span><span class="p">))</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'sepal length (cm)'</span><span class="p">)</span>
 
 <span class="c1"># Plot Logistic Predictions</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_2_range</span><span class="p">,</span> <span class="n">prediction_proba</span><span class="p">[:,</span><span class="mi">0</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span> <span class="s1">'Class 0'</span><span class="p">)</span>
@@ -1657,7 +1658,7 @@ Why do we have 4 different predicted classes?</p>
 <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_2_range</span><span class="p">,</span><span class="n">prediction_thresholded</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span> <span class="s1">'Predicted Class'</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Logistic Regression: Predict_Proba Output per Class and the Predicted Class'</span><span class="p">)</span>
-<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'sepal width (cm)'</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'sepal length (cm)'</span><span class="p">)</span>
 <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">((</span><span class="o">-</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">3.1</span><span class="p">))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
@@ -1677,9 +1678,9 @@ Why do we have 4 different predicted classes?</p>
 </ul>
 <ul>
 <li><code>LogisticRegression().predict_proba(...)</code> : returns probability estimates $P(y_i|x)$ for each $y_i$. In our case <code>.predict_proba(...)</code> returns 3 values (one for each class). In the figure we observe that : <ul>
-<li>we have a <strong>high probability of predicting Class 0</strong> in regions with <strong>low 'sepal width' values (left)</strong>.</li>
-<li>we have a <strong>high probability of predicting Class 1</strong> in regions with <strong>medium 'sepal width' regions (middle)</strong>.</li>
-<li>have a <strong>high probability of predicting Class 2</strong> in regions with <strong>high 'sepal width' regions (right)</strong>.</li>
+<li>we have a <strong>high probability of predicting Class 0</strong> in regions with <strong>low 'sepal length' values (left)</strong>.</li>
+<li>we have a <strong>high probability of predicting Class 1</strong> in regions with <strong>medium 'sepal length' regions (middle)</strong>.</li>
+<li>have a <strong>high probability of predicting Class 2</strong> in regions with <strong>high 'sepal length' regions (right)</strong>.</li>
 </ul>
 </li>
 </ul>
@@ -1719,7 +1720,7 @@ Why do we have 4 different predicted classes?</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's compare the cuusion matrix of our linear model to the confusion matrix of our logistic regression model:</p>
+<p>Let's compare the confusion matrix of our linear model to the confusion matrix of our logistic regression model:</p>
 </div>
 </div>
 </div>
@@ -1950,7 +1951,7 @@ The logistic regression formula can be written as:</p>
 <span class="n">y_pred_train</span> <span class="o">=</span> <span class="n">model_logistic_poly</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train_poly_cst</span><span class="p">)</span>
 <span class="n">y_pred_test</span> <span class="o">=</span> <span class="n">model_logistic_poly</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_poly_cst</span><span class="p">)</span>
 
-<span class="c1">#Perfromance Evaluation</span>
+<span class="c1">#Performance Evaluation</span>
 <span class="n">train_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 <span class="n">test_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_test</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 
@@ -2142,7 +2143,7 @@ The logistic regression formula can be written as:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>END OF STANDARD SECTION</strong></p>
-<hr />
+<hr>
 </div>
 </div>
 </div>
@@ -2175,7 +2176,7 @@ The logistic regression formula can be written as:</p>
 <span class="n">y_pred_train</span> <span class="o">=</span> <span class="n">model_KNN_classifier</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train_cst</span><span class="p">)</span>
 <span class="n">y_pred_test</span> <span class="o">=</span> <span class="n">model_KNN_classifier</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_cst</span><span class="p">)</span>
 
-<span class="c1">#Perfromance Evaluation</span>
+<span class="c1">#Performance Evaluation</span>
 <span class="n">train_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 <span class="n">test_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_test</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 
@@ -2265,7 +2266,7 @@ X_test_poly_cst['sepal length (cm)^2'] = X_test_poly_cst['sepal length (cm)']**2
 <span class="n">y_pred_train</span> <span class="o">=</span> <span class="n">polynomial_logreg_estimator</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train_poly_cst</span><span class="p">)</span>
 <span class="n">y_pred_test</span> <span class="o">=</span> <span class="n">polynomial_logreg_estimator</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_poly_cst</span><span class="p">)</span>
 
-<span class="c1">#Perfromance Evaluation</span>
+<span class="c1">#Performance Evaluation</span>
 <span class="n">train_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 <span class="n">test_score</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_test</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
 
@@ -2280,7 +2281,7 @@ X_test_poly_cst['sepal length (cm)^2'] = X_test_poly_cst['sepal length (cm)']**2
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<hr />
+<hr>
 </div>
 </div>
 </div>
